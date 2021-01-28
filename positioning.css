@@ -1,0 +1,55 @@
+/* static */
+/* #box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    top: 100px;
+    left: 200px;
+} */
+
+/* relative */
+/* #box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    top: 100px;
+    left: 200px;
+    position: relative;
+} */
+
+/* absolute */
+/* .box{
+    width: 300px;
+    height: 300px;
+    background-color: red;
+}
+
+.box .box2{
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    position: absolute;
+    bottom: 350px;
+    right: 350px;
+} */
+
+
+/* fixed */
+
+/* *{
+    height: 100000px;
+}
+
+.data{
+    width: 30px;
+    height: 100px;
+    position: fixed;
+} */
+
+a:hover{
+    color: yellow;
+}
+
+.tombol:hover{
+    background-color: blue;
+}

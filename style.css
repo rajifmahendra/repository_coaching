@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgb(241, 236, 236);
+}
+.wrapper{
+    width: 780px;
+    margin: 0 auto;
+}
+.header{
+    height: 70px;
+    width: 100%;
+    padding: 5px;
+    margin: 20px 0;
+    background-color: grey;
+}
+.header img{
+    width: 130px;
+    height: 35px;
+}
+
+.header .menu-utama{
+    margin-top: 3px;
+    list-style: none;
+}
+.header .menu-utama li{
+    float: left;
+    padding: 8px 20px;
+}
+.header .menu-utama li a{
+    color: white;
+    text-decoration: none;
+}
+.header form{
+    float: right;
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.header form input{
+    border: none;
+    height: 20px;
+}
+.content{
+    width: 470px;
+    float: left;
+}
+
+.content .blog{
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.content .blog img{
+    float: left;
+    margin-right: 10px;
+    width: 200px;
+    height: 150px;
+}
+
+.content .blog b{
+    color: grey;
+    background-color: #DDDDDD;
+    padding: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.content .blog p{
+    margin: 10px 0;
+}
+
+.content .blog a{
+    display: block;
+    text-align: right;
+    color: grey;
+}
+
+.sidebar{
+    width: 270px;
+    float: right;
+}
+
+.sidebar h2{
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.sidebar p{
+    line-height: 20px;
+    color: grey;
+}
+
+.sidebar ul{
+    margin-left: 10px;
+}
+.sidebar ul li a{
+    color: grey;
+    text-decoration: none;
+}
+
+.footer{
+    color: grey;
+    background-color: #fefefe;
+    margin: 20px 0;
+    padding: 5px;
+    clear: both;
+    text-align: center;
+
+}
